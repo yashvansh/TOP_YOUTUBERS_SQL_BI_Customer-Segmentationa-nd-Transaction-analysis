@@ -343,7 +343,8 @@ HAVING
     COUNT(*) > 1;
 ```
 ### Output
-![Duplicate count check](assets/images/4_duplicate_records_check.png)
+![3_data_type_check](https://github.com/user-attachments/assets/365e84dd-c166-4cf5-82e9-7926277a89bd)
+
 
 # Visualization 
 
