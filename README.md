@@ -1,3 +1,81 @@
+## About These Projects
+
+Below are brief overviews of two distinct projects in the portfolio: **Customer Segmentation and Transaction Analysis** and **Excel to Power BI: Top UK YouTubers Dashboard**.
+
+### Customer Segmentation and Transaction Analysis
+
+This project focuses on segmenting customers by analyzing their transaction and demographic data, aiming to uncover actionable business insights through clustering.
+
+- **Objective:**  
+  Group customers based on total spending and average transaction amount to refine marketing strategies and improve engagement.
+
+- **Key Features:**  
+  - Data preprocessing (date conversion, handling missing values)
+  - Feature engineering (total spent, average transaction)
+  - KMeans clustering to identify customer segments
+  - Visual exploration of clusters
+
+- **Outcome:**  
+  Four key customer clusters were identified:
+  1. High spenders with frequent purchases
+  2. Low spenders with rare transactions
+  3. New or inactive customers
+  4. Loyal moderate spenders
+
+- **Tools & Technologies:**  
+  Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+
+- **How to Run:**  
+  1. Clone the repository
+  2. Install dependencies
+  3. Run `main.py` or open the Jupyter notebook
+
+- **Dataset:**  
+  - `customers.csv` (demographics)
+  - `transactions.csv` (transaction history)
+
+- **Future Improvements:**  
+  - Integrate RFM (Recency, Frequency, Monetary) analysis
+  - Deploy the model using Flask or Streamlit
+
+> **Note:**  
+> This project is located in the *subsidiary branch* of the repository, under the "branches" section.
+
+### Excel to Power BI: Top UK YouTubers Dashboard
+
+This project delivers a Power BI dashboard that analyzes and visualizes data on the top UK YouTubers for 2024, supporting marketing decision-making.
+
+- **Objective:**  
+  Enable the marketing team to identify the best YouTubers for campaign collaborations by analyzing subscriber count, views, video uploads, and engagement metrics.
+
+- **Key Features:**  
+  - Data sourced from Kaggle (Excel extract)
+  - Data cleaning and transformation in SQL Server
+  - Data exploration and validation (row/column counts, data types, duplicates)
+  - Power BI dashboard with tables, treemaps, scorecards, and bar charts
+  - DAX measures for advanced metrics (e.g., average views per video, engagement rate)
+  - Actionable recommendations and ROI estimates for influencer partnerships
+
+- **Development Workflow:**  
+  1. Data exploration in Excel
+  2. Data loading and cleaning in SQL Server
+  3. Visualization in Power BI
+  4. Documentation and deployment via GitHub Pages
+
+- **Key Insights:**  
+  - Identified top channels by subscribers, views, and uploads
+  - Calculated potential ROI for marketing collaborations
+  - Recommended optimal YouTubers for maximizing campaign effectiveness
+
+- **Tools Used:**  
+  Excel, SQL Server, Power BI, GitHub, Mokkup AI
+
+These two projects showcase expertise in both advanced data analysis (Python, clustering) and business intelligence (SQL, Power BI), supporting data-driven decision-making for marketing and customer engagement.
+
+
+
+
+
 # Customer Segmentation and Transaction Analysis
 
 This project identifies key customer segments using transaction and demographic data. The goal is to provide actionable business insights through clustering analysis.
