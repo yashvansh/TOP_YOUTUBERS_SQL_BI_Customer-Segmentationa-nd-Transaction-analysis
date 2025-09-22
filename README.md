@@ -76,46 +76,6 @@ These two projects showcase expertise in both advanced data analysis (Python, cl
 
 
 
-# Customer Segmentation and Transaction Analysis
-
-This project identifies key customer segments using transaction and demographic data. The goal is to provide actionable business insights through clustering analysis.
-
-## 📊 Objective
-To group customers based on their total spending and average transaction amount to enhance marketing strategies and customer engagement.
-
-## 🧰 Tools & Technologies
-- Python, Pandas, NumPy
-- Scikit-learn (KMeans Clustering)
-- Matplotlib / Seaborn for visualization
-
-## 🔍 Key Features
-- Data preprocessing (date conversion, missing value handling)
-- Feature engineering (total spent, average transaction)
-- KMeans clustering for segmentation
-- Visual exploration of customer segments
-
-## 📈 Outcome
-Identified 4 customer clusters:
-1. High spenders with frequent purchases
-2. Low spenders with rare transactions
-3. New/inactive customers
-4. Loyal moderate spenders
-
-## 🚀 How to Run
-1. Clone the repo
-2. Install dependencies
-3. Run `main.py` or Jupyter notebook
-
-## 📂 Dataset
-- `customers.csv`: Demographic info
-- `transactions.csv`: Transaction history
-
-## 📌 Future Improvements
-- Add RFM (Recency, Frequency, Monetary) analysis
-- Deploy model via Flask or Streamlit
-
-
-
 
 
 
